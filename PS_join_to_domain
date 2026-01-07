@@ -1,0 +1,1 @@
+Set-DnsClientServerAddress -InterfaceAlias (get-netadapter | Where-Object { $_.Status -eq "Up" -and $_.Virtual -eq $false }).Name -ServerAddresses "xxx.xxx.xxx.xxx", "xxx.xxx.xxx.xxx"; Add-Computer -DomainName "example.COM" -Restart
