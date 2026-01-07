@@ -1,0 +1,1 @@
+This is PowerShell code that can be used to join a computer to a domain. This was created because a company I worked at had MANY servers and had never used a domain to manage then, they were all just in a workgroup. This script was used to quickly add the servers to the domain and reduce the time to do so as well as errors.
